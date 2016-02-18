@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1455818266 source:/home/alessandro/Desktop/http/serverHttp.cpp
+	"Socket.hpp"
+
+1455819126 /home/alessandro/Desktop/http/Socket.hpp
+	<stdlib.h>
+	<unistd.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<string.h>
+	<stdio.h>
+	<errno.h>
+

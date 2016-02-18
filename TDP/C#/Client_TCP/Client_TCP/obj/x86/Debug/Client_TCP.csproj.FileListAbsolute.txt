@@ -1,0 +1,6 @@
+E:\5O\TDP\C#\Client_TCP\Client_TCP\bin\Debug\Client_TCP.exe
+E:\5O\TDP\C#\Client_TCP\Client_TCP\bin\Debug\Client_TCP.pdb
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.Properties.Resources.resources
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.csproj.GenerateResource.Cache
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.exe
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.pdb

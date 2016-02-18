@@ -1,0 +1,10 @@
+E:\5O\TDP\C#\Client_TCP\Client_TCP\bin\Debug\Client_TCP.exe
+E:\5O\TDP\C#\Client_TCP\Client_TCP\bin\Debug\Client_TCP.pdb
+E:\5O\TDP\C#\Client_TCP\Client_TCP\bin\Debug\Chat.dll
+E:\5O\TDP\C#\Client_TCP\Client_TCP\bin\Debug\Chat.pdb
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_UDP.csprojResolveAssemblyReference.cache
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.Form1.resources
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.Properties.Resources.resources
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_UDP.csproj.GenerateResource.Cache
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.exe
+E:\5O\TDP\C#\Client_TCP\Client_TCP\obj\x86\Debug\Client_TCP.pdb

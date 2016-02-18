@@ -1,0 +1,10 @@
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\Threads\Threads\bin\Debug\Threads.exe
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\Threads\Threads\bin\Debug\Threads.pdb
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\Threads\Threads\obj\x86\Debug\Threads.exe
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\Threads\Threads\obj\x86\Debug\Threads.pdb
+E:\Files\ITIS\Threads\Threads\Threads\obj\x86\Debug\Threads.exe
+E:\Files\ITIS\Threads\Threads\Threads\obj\x86\Debug\Threads.pdb
+H:\Files\ITIS\Threads\Threads\Threads\obj\x86\Debug\Threads.exe
+H:\Files\ITIS\Threads\Threads\Threads\obj\x86\Debug\Threads.pdb
+H:\Files\ITIS\Threads\Threads\Threads\bin\Debug\Threads.exe
+H:\Files\ITIS\Threads\Threads\Threads\bin\Debug\Threads.pdb

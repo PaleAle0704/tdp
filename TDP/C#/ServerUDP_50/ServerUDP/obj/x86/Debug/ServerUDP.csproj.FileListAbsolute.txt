@@ -1,0 +1,28 @@
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\ServerUDP\ServerUDP\bin\Debug\ServerUDP.exe
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\ServerUDP\ServerUDP\bin\Debug\ServerUDP.pdb
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.Form1.resources
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.Properties.Resources.resources
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.csproj.GenerateResource.Cache
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.exe
+c:\users\d.diego.nova\documents\visual studio 2010\Projects\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.pdb
+E:\Files\ITIS\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.exe
+E:\Files\ITIS\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.pdb
+E:\Files\ITIS\ServerUDP\ServerUDP\bin\Debug\ServerUDP.exe
+E:\Files\ITIS\ServerUDP\ServerUDP\bin\Debug\ServerUDP.pdb
+E:\Files\ITIS\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.Form1.resources
+E:\Files\ITIS\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.Properties.Resources.resources
+E:\Files\ITIS\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.csproj.GenerateResource.Cache
+C:\Users\d.diego.nova\Desktop\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.exe
+C:\Users\d.diego.nova\Desktop\ServerUDP\ServerUDP\obj\x86\Debug\ServerUDP.pdb
+E:\Files\ITIS\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.exe
+E:\Files\ITIS\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.pdb
+F:\Files\ITIS\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.exe
+F:\Files\ITIS\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.pdb
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.exe
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.pdb
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\bin\Debug\ServerUDP.exe.config
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\bin\Debug\ServerUDP.exe
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\bin\Debug\ServerUDP.pdb
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.Form1.resources
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.Properties.Resources.resources
+F:\5O\TDP\C#\ServerUDP_50\ServerUDP\obj\x86\Debug\ServerUDP.csproj.GenerateResource.Cache

@@ -1,0 +1,13 @@
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\bin\Debug\UDP.exe
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\bin\Debug\UDP.pdb
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\bin\Debug\UDP.xml
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\obj\x86\Debug\WindowsApplication1.frmPrincipale.resources
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\obj\x86\Debug\UDP.vbproj.GenerateResource.Cache
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\obj\x86\Debug\UDP.exe
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\obj\x86\Debug\UDP.xml
+C:\Users\Delmastro\documents\visual studio 2010\Projects\UDP\UDP\obj\x86\Debug\UDP.pdb
+C:\Users\Delmastro\Documents\Visual Studio 2010\Projects\UDP\UDP\bin\Debug\UDP.exe.manifest
+C:\Users\Delmastro\Documents\Visual Studio 2010\Projects\UDP\UDP\bin\Debug\UDP.application
+C:\Users\Delmastro\Documents\Visual Studio 2010\Projects\UDP\UDP\obj\x86\Debug\UDP.exe.manifest
+C:\Users\Delmastro\Documents\Visual Studio 2010\Projects\UDP\UDP\obj\x86\Debug\UDP.application

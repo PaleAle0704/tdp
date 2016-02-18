@@ -1,0 +1,2 @@
+Abbiamo un processo con una shared memory che contiene 100 e controlla se il valore è ancora superiore 0. Obi Wan
+I processi figli decrementano di valori casuali la memoria, tentando di uccidere Obi Wan. Clone

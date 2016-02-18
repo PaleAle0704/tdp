@@ -1,0 +1,4 @@
+E:\5O\TDP\C#\Client_TCP\Chat\bin\Debug\Chat.dll
+E:\5O\TDP\C#\Client_TCP\Chat\bin\Debug\Chat.pdb
+E:\5O\TDP\C#\Client_TCP\Chat\obj\Debug\Chat.dll
+E:\5O\TDP\C#\Client_TCP\Chat\obj\Debug\Chat.pdb
