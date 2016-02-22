@@ -1,11 +1,10 @@
 #include "Socket.hpp"
 #define SERVER_IP "0.0.0.0"
 #define HTTP_200 "HTTP/1.0 200 OK\
-\
-"
+\"
+
 #define HTTP_404 "HTTP/1.0 404 Not Found\
-\
-"
+\"
 
 int main(int argc, char* argv[]){
 	int port;
@@ -36,7 +35,7 @@ int main(int argc, char* argv[]){
             if(!file_home_page){
                 conn->invia(HTTP_404);
             }else{
-                conn->invia(HTTP_200);
+                conn->invia("HTTP/1.0 200 OK\n\n");
                 conn->invia(file_home_page);    //va implementato, legge il file e lo spedisce
                 fclose(file_home_page);
             }
