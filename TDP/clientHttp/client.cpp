@@ -2,7 +2,8 @@
 #define HTTP_200 "HTTP/1.0 200 OK\
 \
 "
-#define HTTP_REQUEST "GET /root HTTP/1.1\
+
+#define HTTP_REQUEST "GET /index.html HTTP/1.1\
 \
 "
 
@@ -29,15 +30,15 @@ int main(int argc, char* argv[]){
 	ip=argv[2];
 
 	myself = new ClientTCP();
-	if(!myself->connetti(server = new Address(ip, port))) errore("Aaaaarg!!\n", -2);
+	if(!myself->connetti(*(server = new Address(ip, port)))) errore("Aaaaarg!!\n", -2);
     if(!myself->invia(HTTP_REQUEST)) errore("Uuuuuuugh!!\n", -3);
 
     answer = myself->ricevi();
     if(!answer) errore("Oioioioioi!!\n", -4);
     printf("%s\n", answer);
-    if(!strstr(answer, ANS_200OK)) errore("Buahhhhhh!!\n", -5);
+    if(!strstr(answer, HTTP_200)) errore("Buahhhhhh!!\n", -5);
     free(answer);
-    if(!answer = myself->ricevi()) errore("Waaaaaaah!!\n", -6);
+    if(!(answer = myself->ricevi())) errore("Waaaaaaah!!\n", -6);
     printf("%s\n", answer);
 
     delete(myself);

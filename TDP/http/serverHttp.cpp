@@ -1,10 +1,12 @@
 #include "Socket.hpp"
 #define SERVER_IP "0.0.0.0"
 #define HTTP_200 "HTTP/1.0 200 OK\
-\"
+\
+"
 
 #define HTTP_404 "HTTP/1.0 404 Not Found\
-\"
+\
+"
 
 int main(int argc, char* argv[]){
 	int port;

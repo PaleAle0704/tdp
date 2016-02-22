@@ -337,7 +337,7 @@ ConnessioneClient* ClientTCP::connetti(Address server){
 }
 
 bool ClientTCP::invia(char* msg){
-    this->conn->invia(msg);
+    return this->conn->invia(msg);
 }
 
 char* ClientTCP::ricevi(){
@@ -384,7 +384,7 @@ Connessione::Connessione(int conn, Address ind){
 }
 
 bool Connessione::invia(char* msg){
-    send(this->conn_id, msg, strlen(msg), 0);
+    return send(this->conn_id, msg, strlen(msg), 0);
 }
 
 bool Connessione::invia(FILE* f){
