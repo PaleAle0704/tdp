@@ -33,16 +33,16 @@ int main(int argc, char* argv[]){
             printf("%s : %d\n", conn->getAddress()->getIp(), conn->getAddress()->getPort());
 
             FILE* file_home_page;
-            file_home_page = fopen(home_page, "r");
+            file_home_page = fopen(home_page, "rb");
             if(!file_home_page){
                 conn->invia(HTTP_404);
             }else{
                 conn->invia("HTTP/1.0 200 OK\n\n");
-                conn->invia(file_home_page);    //va implementato, legge il file e lo spedisce
+                conn->inviaBinario(file_home_page);
                 fclose(file_home_page);
             }
 
-//            myself->chiudi(conn);               //va implementato, elimina la connessine dalla lista e poi chiama il distruttore di connessiones
+            myself->chiudi(conn);               //va implementato, elimina la connessine dalla lista e poi chiama il distruttore di connessiones
         }
     }
 

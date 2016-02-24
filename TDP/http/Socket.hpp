@@ -27,6 +27,7 @@ class Nodo{
 
 /*Classe Lista, collezione di Nodo*/
 class Iterator;
+class Connessione;
 class Lista{
     private:
         Nodo* first;
@@ -38,6 +39,7 @@ class Lista{
         void add(Nodo* n);
         void show();
 		Nodo* getFirst();
+		void removeNode(void* node);
 		Iterator* createIterator();
 };
 
@@ -127,8 +129,9 @@ class ServerTCP:public SocketTCP{
         Lista* connessioni;
     public:
         ServerTCP(Address* mio);						//listen()
-        ConnessioneServer* accetta();	//accept()
+        ConnessioneServer* accetta();	                //accept()
 		Iterator createIterator();
+		void chiudi(void* conn);
 		~ServerTCP();
 };
 
@@ -144,6 +147,7 @@ class Connessione{
     public:
         bool invia(char* msg);	//send()
         bool invia(FILE* f);
+        bool inviaBinario(FILE* f);
         char* ricevi();			//recv()
 		Address* getAddress();
 };
@@ -373,6 +377,11 @@ Iterator ServerTCP::createIterator(){
 	this->connessioni->createIterator();
 }
 
+/*Riceve un void asterisco per evitare che l'upcasting modifichi il puntatore*/
+void ServerTCP::chiudi(void* conn){
+    this->connessioni->removeNode((Nodo*)conn);
+}
+
 /**********************************************************/
 /**********************  Connessione  *********************/
 /**********************************************************/
@@ -397,6 +406,26 @@ bool Connessione::invia(FILE* f){
     printf("Invia %s\n", bufferone);
 
     this->invia(bufferone);
+}
+
+bool Connessione::inviaBinario(FILE* f){
+    long lSize;
+    int letti;
+    char* buffer;
+    //estrapolo la lungheza del file
+    fseek (f , 0 , SEEK_END);
+    lSize = ftell (f);
+    rewind (f);
+
+    buffer = (char*) malloc (sizeof(char)*lSize);
+    letti = fread (buffer,1,lSize,f);
+    printf("Letti %d bytes\n", letti);
+
+    this->invia(buffer);
+
+    free(buffer);
+
+    return true;
 }
 
 char* Connessione::ricevi(){
@@ -487,6 +516,27 @@ Nodo* Lista::getFirst(){
 
 Iterator* Lista::createIterator(){
 	return(new Iterator(this));
+}
+
+/*Riceve un void asterisco per evitare che l'upcasting modifichi il puntatore*/
+void Lista::removeNode(void* node){
+    Nodo* r = (Nodo*)node;
+    //se è la prima connessione della lista, sostituisco il primo nodo con il secondo
+    if(this->first == r){
+        this->first = this->first->getNext();
+    }else{
+        Nodo* n = this->first;
+        while(n->getNext() != r) n = n->getNext();
+        Nodo* eliminare = n->getNext();
+
+        if(eliminare = eliminare->getNext()){
+            n->setNext(eliminare);
+        }else{
+            n->setNext(NULL);
+        }
+    }
+
+    r->~Nodo();
 }
 
 /**********************************************************/
